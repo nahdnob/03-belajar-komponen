@@ -37,14 +37,32 @@
 // }
 
 // ------------------------- Soal 3 -------------------------
-import Bio from "@/src/components/bio";
+// import Bio from "@/src/components/bio";
 
-export default function Home() {
-  return (
-    <main>
-      <div className="flex justify-center gap-6 mt-6">
-        <Bio />
-      </div>
-    </main>
+// export default function Home() {
+//   return (
+//     <main>
+//       <div className="flex justify-center gap-6 mt-6">
+//         <Bio />
+//       </div>
+//     </main>
+//   );
+// }
+
+// ------------------------- Soal 4 -------------------------
+import {Gallery} from "@/src/components/gallery";
+import TodoList from "@/src/components/todolist";
+
+export default function Home() { 
+  return ( 
+    <section> 
+      <h1 className="font-semibold text-slate-900 truncate pr-20 text center">
+        Ilmuwan yang luar biasa
+      </h1> 
+      <hr /> 
+      <Gallery /> 
+      <hr /> 
+      <TodoList /> 
+    </section> 
   );
 }

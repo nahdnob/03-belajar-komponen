@@ -27,6 +27,15 @@ Pada tugas ini saya mempelajari:
         - JSX tidak dapat menampilkan object secara langsung
         - Data object harus diakses melalui properti tertentu
         - Penggunaan inline style pada JSX
+    Soal 5:
+        - Cara menggunakan JavaScript expression di JSX
+        - Cara menggabungkan string dan variabel untuk URL gambar
+        - Perbedaan antara string biasa dan expression pada JSX
+        - Cara menampilkan gambar secara dinamis
+    Soal 6:
+        - Cara memisahkan logic ke file utility
+        - Cara membangun URL gambar secara dinamis
+        - Penggunaan props dan JSX expression
 
 ## Error yang Ditemui dan Solusinya
 Soal 1: Saya sempat mengalami error saat menampilkan gambar dari URL eksternal.
@@ -52,6 +61,25 @@ mendukung string, number, atau expression yang valid
 
 Solusi:
 Mengakses properti `person.name` dari sebelumnya object `person`
+
+Soal 5:
+Error terjadi karena atribut `src` ditulis sebagai string,
+sehingga JSX tidak mengeksekusi variabel di dalamnya.
+Akibatnya URL gambar menjadi tidak valid dan gambar tidak tampil.
+
+Solusi:
+Solusi dilakukan dengan menggunakan JavaScript expression
+menggunakan `{}` atau template literal untuk membentuk URL
+gambar secara dinamis.
+
+SOal 6:
+Error terjadi karena penggunaan alias `@/`
+yang belum dikonfigurasi di project serta
+fungsi `getImageUrl` belum didefinisikan.
+
+Solusi: Solusi dilakukan dengan membuat file utils
+dan mengimpor fungsi menggunakan relative path
+agar mudah dikenali oleh Next.js.
 
 ## Kesimpulan
 Dengan tugas ini, saya memahami konsep dasar komponen di Next.js
