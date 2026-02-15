@@ -1,10 +1,11 @@
-import { getImageUrlV2 } from '../utils/utils'; 
+import { AnyARecord } from 'dns';
+import { getImageUrl } from '../utils/utils'; 
  
-function MyAvatar({ person, size }) { 
+function MyAvatar({ person, size }: any) { 
   return ( 
     <img 
       className="avatar" 
-      src={getImageUrl(person, 'b')} 
+      src={getImageUrl(person.imageId, 'b')} 
       alt={person.name} 
       width={size} 
       height={size} 

@@ -36,6 +36,8 @@ Pada tugas ini saya mempelajari:
         - Cara memisahkan logic ke file utility
         - Cara membangun URL gambar secara dinamis
         - Penggunaan props dan JSX expression
+    Soal 7:
+        - Menampilkan komponen Gallery
 
 ## Error yang Ditemui dan Solusinya
 Soal 1: Saya sempat mengalami error saat menampilkan gambar dari URL eksternal.
@@ -80,6 +82,15 @@ fungsi `getImageUrl` belum didefinisikan.
 Solusi: Solusi dilakukan dengan membuat file utils
 dan mengimpor fungsi menggunakan relative path
 agar mudah dikenali oleh Next.js.
+
+Soal 7:
+"Binding element 'size' implicitly has an 'any' type" Error ini muncul karena TypeScript membutuhkan tipe data yang jelas
+pada parameter props komponen.
+
+Solusi:
+    - Mendefinisikan tipe data menggunakan `type` pada props
+    - Menyesuaikan pemanggilan fungsi `getImageUrl` agar menerima `imageId`
+    bukan object
 
 ## Kesimpulan
 Dengan tugas ini, saya memahami konsep dasar komponen di Next.js
