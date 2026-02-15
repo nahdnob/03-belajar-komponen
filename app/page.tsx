@@ -81,13 +81,26 @@
 // }
 
 // ------------------------- Soal 8 -------------------------
-import MyProfile from "@/src/components/myprofile";
+// import MyProfile from "@/src/components/myprofile";
+
+// export default function Home() { 
+//   return ( 
+//     <section>
+//       <hr /> 
+//       <MyProfile /> 
+//       <hr /> 
+//     </section> 
+//   );
+// }
+
+// ------------------------- Soal 9 -------------------------
+import MyProfileV2 from "@/src/components/myprofilev2";
 
 export default function Home() { 
   return ( 
     <section>
       <hr /> 
-      <MyProfile /> 
+      <MyProfileV2 /> 
       <hr /> 
     </section> 
   );

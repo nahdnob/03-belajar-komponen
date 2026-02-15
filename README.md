@@ -43,6 +43,15 @@ Pada tugas ini saya mempelajari:
     Soal 8:
         - penggunaan props untuk mengontrol perilaku komponen
         - Jika `size` < 90  = `s`, `size` >= 90  = `b`
+    Soal 9:
+        - Pada soal ini saya mempelajari penggunaan `props.children` pada React.
+          Dengan `children`, saya dapat membuat komponen `Card` yang reusable dan
+          mengurangi duplikasi kode.
+
+        - Komponen `Card` digunakan untuk membungkus JSX yang berbeda seperti
+          gambar dan teks, namun tetap memiliki struktur tampilan yang sama.
+          Pendekatan ini membuat kode lebih rapi, mudah dibaca, dan mudah
+          dikembangkan.
 
 ## Error yang Ditemui dan Solusinya
 Soal 1: Saya sempat mengalami error saat menampilkan gambar dari URL eksternal.
