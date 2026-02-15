@@ -68,13 +68,26 @@
 // }
 
 // ------------------------- Soal 7 -------------------------
-import MyGallery from "@/src/components/mygallery";
+// import MyGallery from "@/src/components/mygallery";
+
+// export default function Home() { 
+//   return ( 
+//     <section>
+//       <hr /> 
+//       <MyGallery /> 
+//       <hr /> 
+//     </section> 
+//   );
+// }
+
+// ------------------------- Soal 8 -------------------------
+import MyProfile from "@/src/components/myprofile";
 
 export default function Home() { 
   return ( 
     <section>
       <hr /> 
-      <MyGallery /> 
+      <MyProfile /> 
       <hr /> 
     </section> 
   );

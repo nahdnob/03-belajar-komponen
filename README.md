@@ -6,7 +6,9 @@ Berikut adalah hasil implementasi komponen Profile pada halaman utama:
 ![Hasil Tampilan](./ss-soal-1.png)
 ![Hasil Tampilan](./ss-soal-2.png)
 ![Hasil Tampilan](./ss-soal-3.png)
-![Hasil Tampilan](./ss-soal-4.png)
+![Hasil Tampilan](./ss-soal-5.png)
+![Hasil Tampilan](./ss-soal-7.png)
+![Hasil Tampilan](./ss-soal-8.png)
 
 ## Apa yang Saya Pelajari
 Pada tugas ini saya mempelajari:
@@ -38,6 +40,9 @@ Pada tugas ini saya mempelajari:
         - Penggunaan props dan JSX expression
     Soal 7:
         - Menampilkan komponen Gallery
+    Soal 8:
+        - penggunaan props untuk mengontrol perilaku komponen
+        - Jika `size` < 90  = `s`, `size` >= 90  = `b`
 
 ## Error yang Ditemui dan Solusinya
 Soal 1: Saya sempat mengalami error saat menampilkan gambar dari URL eksternal.
